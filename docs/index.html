@@ -3,10 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>TodoApp</title>
-  <base href="/todo-redux-curso">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.4a59496848dfdffdd8c9.css"></head>
+<script>
+  (function() {
+    window['_app_base'] = '/' + window.location.pathname.split('/')[1];
+  })();
+</script>
 <body>
   <app-root></app-root>
 <script src="runtime.7b63b9fd40098a2e8207.js" defer></script><script src="polyfills.94daefd414b8355106ab.js" defer></script><script src="main.86d725c1ad2f5df5edee.js" defer></script></body>
